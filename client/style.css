@@ -155,20 +155,16 @@ main {
 
 /* Detail Page CSS*/
 
-/* .gift-info {
+.adoption-container {
+  padding: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-.image-container {
-  padding-left: 100px;
-  width: 40vw;
+#image{
+  max-height: 500px;
+  max-width: 300px;
+  margin: auto;
 }
-
-.image-container img {
-  width: 80%;
-}
-
-.gift-details {
-  width: 45vw;
-} */
