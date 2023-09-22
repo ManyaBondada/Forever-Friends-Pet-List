@@ -23,7 +23,7 @@ const renderAdoptions = async () => {
             bottomContainer.appendChild(name)
 
             const breed = document.createElement('p')
-            breed.textContent = 'Breed: ' + adoption.breed
+            breed.textContent = adoption.breed
             bottomContainer.appendChild(breed)
 
             const link = document.createElement('a')
@@ -44,4 +44,11 @@ const renderAdoptions = async () => {
     }
 }
 
-renderAdoptions()
+const requestedUrl = window.location.href.split('/').pop()
+
+if (requestedUrl) {
+  window.location.href = '../404.html'
+}
+else {
+  renderAdoptions()
+}
