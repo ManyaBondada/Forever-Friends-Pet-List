@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 Here's a walkthrough of implemented required features:
 
-<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://github.com/ManyaBondada/Listicle-Part-1/blob/main/listicle%20part%201%20walkthrough.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ... LICECap
