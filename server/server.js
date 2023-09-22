@@ -1,12 +1,15 @@
 import express from 'express'
+import adoptionsRouter from './routes/adoptions.js'
+
 const app = express()
 
-app.use('/public', express.static('./public'))
-app.use('/scripts', express.static('./public/scripts'))
+app.use('/public', express.static('../public'))
+app.use('/scripts', express.static('../public/scripts'))
+app.use('/adoptions', adoptionsRouter)
 
 app.get('/', (req, res) => {
     res.status(200).send('<h1 style="text-align: center; margin-top: 50px;">Listicle API</h1>')
-  })
+})
 
 const PORT = process.env.PORT || 3001
     
