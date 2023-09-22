@@ -16,6 +16,7 @@ const renderAdoption = async () => {
         document.getElementById('breed').textContent = 'Breed: ' + adoption.breed
         document.getElementById('location').textContent = 'Location: ' + adoption.location
         document.getElementById('description').textContent = adoption.description
+        document.getElementById('contact').textContent = 'Contact: ' + adoption.contact
         document.title = `ForeverFriends - ${adoption.name}`
     }
     else {
