@@ -23,7 +23,7 @@ const renderAdoptions = async () => {
             bottomContainer.appendChild(name)
 
             const breed = document.createElement('p')
-            breed.textContent = 'Breed: ' + adoption.breed
+            breed.textContent = adoption.breed
             bottomContainer.appendChild(breed)
 
             const link = document.createElement('a')

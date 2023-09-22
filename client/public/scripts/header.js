@@ -17,6 +17,7 @@ headerLeft.appendChild(headerTitle)
 
 const headerButton = document.createElement('Home')
 headerButton.textContent = 'Home'
+headerButton.className = 'header-button';
     
 headerButton.addEventListener('click', (event) => {
   window.location = '/'
@@ -30,5 +31,4 @@ headerRight.appendChild(headerButton)
 headerContainer.appendChild(headerLeft)
 headerContainer.appendChild(headerRight)
 
-console.log(headerContainer)
 header.appendChild(headerContainer)

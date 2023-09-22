@@ -27,7 +27,7 @@ const renderAdoptions = async () => {
             bottomContainer.appendChild(breed)
 
             const link = document.createElement('a')
-            link.textContent = 'Read More >'
+            link.textContent = '< Read More >'
             link.setAttribute('role', 'button')
             link.href = `/adoptions/${adoption.id}`
             bottomContainer.appendChild(link)

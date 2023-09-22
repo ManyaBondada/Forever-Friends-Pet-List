@@ -30,5 +30,4 @@ headerRight.appendChild(headerButton)
 headerContainer.appendChild(headerLeft)
 headerContainer.appendChild(headerRight)
 
-console.log(headerContainer)
 header.appendChild(headerContainer)
