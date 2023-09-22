@@ -24,19 +24,12 @@ The following **optional** features are implemented:
 - [x] The web app displays items in a unique format, such as cards rather than lists
 
 ## Video Walkthrough
-
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://github.com/ManyaBondada/Listicle-Part-1/blob/main/listicle%20part%201%20walkthrough.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with ... LICECap
 
 ## Notes
 
