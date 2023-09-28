@@ -1,4 +1,5 @@
 import express from 'express'
+import './config/dotenv.js'
 import adoptionsRouter from './routes/adoptions.js'
 
 const app = express()
