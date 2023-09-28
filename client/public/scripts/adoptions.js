@@ -7,6 +7,7 @@ const renderAdoptions = async () => {
     if (data) {
 
         data.map(adoption => {
+
             const card = document.createElement('div')
             card.classList.add('card')
 

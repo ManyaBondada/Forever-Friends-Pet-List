@@ -6,41 +6,38 @@
 }
 
 /* Header CSS */
-.header-container {
+
+.header {
+  background-image: url('public/dog.jpg');
+  background-size: cover; 
+  height: 100vh; 
+  position: relative; 
+  margin-bottom: 20px;
   overflow: hidden;
+  height: 0.01s linear;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   padding: 20px 10px;
   padding-bottom: 100px;
-} 
-
-.header-left {
-  float: left;
-  height: 10px;
-  width: 500px;
-} 
-
-.header-left img {
-  padding-top: 8px;
-  height: 90px;
+  position: absolute;
+  left: 70%;
+  top: 60%;
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px); 
+  z-index: 1;
 }
-
-.header-left h1 {
-  float: right;
-  font-size: 50px;
-}
-
-.header-right {
-  float: right;
-  padding-top:50px;
-  padding-right:10px;
-} 
 
 .header-button {
 background-color: #cbd6a5;
-border: solid;
-border-width: 3px;
-border-color: #547735;
-border-radius: 0.1rem;
-border-radius: 16px;
 box-sizing: border-box;
 color: black;
 cursor: pointer;
@@ -48,8 +45,9 @@ padding: 15px 16px;
 text-align: center;
 text-transform: uppercase;
 touch-action: manipulation;
-width: 80px;
+width: 100px;
 }
+
 
 /* Home page CSS */
 
@@ -58,6 +56,10 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
+  height: 100vh; 
+  transition: height 0.5s;
+  z-index: 0;
 }
 
 .card {
@@ -161,10 +163,16 @@ main {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  height: 700px;
+  width: 500px;
+  margin: auto;
 }
 
 #image{
   max-height: 500px;
   max-width: 300px;
   margin: auto;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #547735;
 }
