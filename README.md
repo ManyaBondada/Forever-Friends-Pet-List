@@ -1,39 +1,30 @@
-# WEB103 Project 1 - *Forever Friends*
+# WEB103 Project 2 - *Forever Friends*
 
 Submitted by: **Manya Bondada**
 
-About this web app: **Forever Friends is a simple, static webapp that allows users to browse through a small selection of adoptable dogs and cats in the Dallas area**
+About this web app: **A web app that allows users to view a list of adoptable dogs and cats in the DFW area.**
 
-Time spent: **5** hours
+Time spent: **3** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-<!-- Make sure to check off completed functionality below -->
+<!-- Make sure to check off the completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five list items, each with at least three attributes (such as title, text, and image url)**
-- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [x] **The web app is appropriately styled using Picocss**
-
-The following **optional** features are implemented:
-
-- [x] The web app displays items in a unique format, such as cards rather than lists
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [x] **The PostgreSQL database includes a table that matches the data displayed in the web app**
+  - [x] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 ## Video Walkthrough
+
 Here's a walkthrough of implemented required features:
+<img src='https://github.com/ManyaBondada/Listicle-Part-2/blob/main/listicle%20part%202%20walkthrough.gif' title='Video Walkthrough Part 2' width='' alt='Video Walkthrough' />
 
-<img src='https://github.com/ManyaBondada/Listicle-Part-1/blob/main/listicle%20part%201%20walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ... LICECap
+GIF created with LICECap
 
 ## Notes
-
-Utilizes Vanilla CSS/HTML/JavaScript, Express.js, Node.js
+Webapp utilizes Vanilla JavaScript, HTML/CSS, Express.js, Node.js, and a PostgreSQL database.
 
 ## License
 
