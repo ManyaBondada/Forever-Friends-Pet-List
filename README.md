@@ -4,11 +4,9 @@ Submitted by: **Manya Bondada**
 
 About this web app: **A web app that allows users to view a list of adoptable dogs and cats in the DFW area.**
 
-Time spent: **7** hours
+## Features
 
-## Required Features
-
-The following **required** functionality is completed:
+The following functionality is completed:
 
 <!-- Make sure to check off the completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
